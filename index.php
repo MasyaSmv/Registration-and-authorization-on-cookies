@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MasyaSm</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"></link> <!-- Подключение BootStrap -->
-  <link rel="stylesheet" href="css/style.css"> <!-- Подключение файла стилей -->
+  <link rel="stylesheet" href="css/style.css"><!-- Подключение файла стилей -->
   <script>
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
@@ -32,7 +32,7 @@ document.getElementById("defaultOpen").click();
   <?php
     if(!isset($_COOKIE['user']) ):
   ?>
-    <div class="row"> <!-- Контейнер с формами авторизации -->
+    <div class="row" style="float: right;"> <!-- Контейнер с формами авторизации -->
       <div class="col"> <!-- //Контейнер регистрации -->
       <div class="tab">
       <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Регистрация</button>
